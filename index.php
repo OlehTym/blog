@@ -61,7 +61,7 @@ $conn->close();
 if (isset($_SESSION["Autorizzation"]) && $_SESSION["Autorizzation"]==TRUE){
   ?>
                 <li><img class="avatar" src="./img/anonim_avatar.png" alt=""></li>
-                <li><a href="">myblog@gmail.com</a></li>
+                <!-- <li><a href="">myblog@gmail.com</a></li> -->
                 <li><a href="outLog.php">ВИХІД</a></li>
                 <?php
    } else{
