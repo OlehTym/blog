@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+body{
+    
+}
+header{
+ 
+  
+}
+.nav-menu{
+    width: 80%;
+    margin: auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid silver;
+   
+   
+}
+.nav-menu ul{
+    list-style: none;
+    
+   
+}
+.nav-menu > ul{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 30px;
+  
+}
+.nav-menu > ul li a{
+    display: block;
+    color: silver;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.nav-menu  li a:hover{
+    background-color: silver;
+    color: white;
+    box-shadow: 1px 5px 10px -5px;
+    transition: all 0.3s ease;
+}
+.nav-menu li ul{
+    position: absolute;
+    display: none;
+}
+.nav-menu li:hover >ul{
+    display: block;
+}
+.nav-menu li > ul li a{
+padding: 10px;
+text-transform:  none;
+}
+.avatar{
+    margin-top: -10px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+
+.registration{
+    width: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.content{
+    width: 50%;
+    height: 500px;
+    border: 2px solid silver;
+    margin: auto;
+margin-top: 100px;
+    background-color: white;
+    opacity: 0.8;
+}
+.post-name-time{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    border-bottom: 2px solid silver;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+ justify-content: space-around;
+}
+.post-name-time span{
+ border-bottom: 2px solid silver;
+}
+.like-dislike{
+    width: 15%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.like img{
+    width: 40%;
+    height: 40%;
+    margin-left: 15px;
+    cursor: pointer;
+  
+}
+.dislike img{
+    width: 40%;
+    height: 40%;
+    margin-left: 15px;
+    cursor: pointer;
+   
+}
+.like-counter{
+    font-size: 20px;
+    font-weight: 400;
+}
+.dislike-counter{
+    font-size: 20px;
+    font-weight: 400;
+}
+.comments{
+    float: right;
+    display: flex;
+    margin-top: -40px;
+    margin-right: 150px;
+    color:black;
+}
+.button-avtor {
+    float: right;
+    display: flex;
+    margin-right: 10px;
+}
+.content-button{
+    width: 150px;
+    height: 30px;
+    margin-right: 10px;
+    color: white;
+    background-color: silver;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.registration-form{
+    float: right;
+    width: 270px;
+    height: 250px;
+    background-color: silver;
+    margin-right: 200px;
+
+ 
+}
+.registration-form p{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.form-control{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.button-submit{
+    width: 250px;
+    height: 30px;  
+    margin-left: 10px;
+}
+.sgin-in-form{
+    float: right;
+    width: 270px;
+    height: 170px;
+    background-color: silver;
+    margin-right: 200px;
+
+}
+.sgin-in-form p{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.input-text{
+    width: 90%;
+  margin-left: 30px;
+}
+.drop-menu{
+position: absolute;
+}
